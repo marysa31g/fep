@@ -1,0 +1,92 @@
+.barraprincipal{
+	background-color: #008080;
+}
+
+.btn-primary{
+	background-color: #008080;
+	border: #28a745;
+}
+
+.btn-boton {
+	background-color: #008080;
+	color: white;
+	border: 2px #28a745 solid;
+}
+
+.btn-boton:hover{
+	background-color: #138d75;
+	color: white
+	border: 2px #28a745 solid;
+}
+
+p {
+  border-left: #138d75 2px solid;
+}
+
+/*.nav-link:hover{
+	background-color: #138d75;
+}*/
+.fepimage{
+    width: 60px;
+    height: 60px;
+    top: 15px;
+}
+.logintitulo{
+    width: 150%;
+     font-weight: bold;
+     font-size: 10.5pt;}
+.logintexto{
+     text-align:     center;
+     font-size: 12pt;
+ } 
+ .menu li {
+ border-right:     1px solid white;
+ float: left;
+ list-style:     none outside none;
+ padding-left:     5px;
+ padding-right:     5px;
+ width: auto;    
+}
+.menu li:last-child     {
+     border-right:none;    
+}
+.menuses:hover{
+ background-color: #138d75;
+  color: white
+  border: 2px #28a745 solid;
+ border-radius: 10px;
+}
+
+.obligatorio{
+ color: red;
+ font-size: 10px;
+}
+
+.obligatorio2{
+ color: red;
+}
+.convertexto{
+  text-transform: capitalize;;
+  cursor: pointer;
+  padding-left: 70px;
+}
+
+.navbarra
+{
+  color: white;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+
+.navbarra:hover{
+  color: white;
+  text-decoration: none;
+
+}
+.navbarra:active
+{
+  background-color: #138d75;
+
+}
+

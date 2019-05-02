@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?54k7qs');
+  src:  url('icomoon.eot?54k7qs#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?54k7qs') format('truetype'),
+    url('icomoon.woff?54k7qs') format('woff'),
+    url('icomoon.svg?54k7qs#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-plus:before {
+  content: "\e904";
+  font-size: 25px;
+color: #008080 !important;
+  margin: 0;  
+}
+.icon-plus:hover:before{
+  content: "\e904";
+   color: #138d75 !important;
+   
+}
+
+.icon-views:before {
+  content: "\e902";
+  font-size: 25px !important;
+  color: #008080 !important;
+  margin-left: 20px !important; 
+}
+.icon-views:hover:before{
+  content: "\e902";
+   color: #138d75 !important;
+}
+
+.icon-switch:before {
+  content: "\e905";
+ font-size: 25px;
+  color: #FFFFFF !important;
+  margin: 0; 
+  text-decoration: none;
+}
+.icon-switch:hover:before{
+  content: "\e905";
+   color:black !important;
+  text-decoration: none;
+
+}
+.icon-user:before {
+  content: "\e901";
+  font-size: 25px;
+  color: #FFFFFF !important;
+  margin: 0;  
+
+}
+
+.icon-trash:before {
+  content: "\e903";
+  font-size: 25px;
+  color: #EC7063;
+  margin-left: 10px !important; 
+}
+.icon-trash:hover:before {
+  content: "\e903";
+  color: red !important;
+  text-decoration: none;
+}
+.icon-refresh:before {
+  content: "\e900";
+  font-size: 30px !important;
+  color: #008080 !important;
+  margin-left: 10px;
+}
+.icon-refresh:hover:before {
+  content: "\e900";
+   color: #138d75 !important;
+ 
+}
+/*tamaño de letras*/
+
+.font_tam{
+  font-size: 12px !important;
+  text-align: center;
+}
+.marg_clas{
+  margin-bottom:10px;
+  width: 70px;
+}
+.marg_clas1{
+  float: left;
+  
+}
